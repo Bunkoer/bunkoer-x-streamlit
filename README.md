@@ -21,6 +21,7 @@ or
 ```
 python3 -m streamlit run app.py 
 ```
+[Warning] The Bunkoer library is still under development and testing. Sometimes, the anonymization process may be incorrect. We are not responsible if your data is exposed inadvertently.
 
 ## Contributing
 Contributions are welcome! If you have suggestions or want to contribute to the project, please fork the repository and create a pull request.
