@@ -12,6 +12,24 @@ import os  # For interacting with the operating system
 # Secure file handling from bunkoer library
 from bunkoer.security import SecureFile
 
+st.set_page_config(page_title="Welcome to Bunkoer 🔒🛡️", layout="wide")
+
+st.markdown(
+    """
+    <div style='text-align: center;'>
+        <h1>Bunkoer Secure Your Data</h1>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+st.markdown(
+    """
+    <div style='text-align: center;'>
+        <h4>AI Conversations With Trust</h4>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 
 # Sidebar uploader for CSV files
 uploaded_file = st.sidebar.file_uploader("upload", type="csv")
