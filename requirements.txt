@@ -3,3 +3,5 @@ streamlit
 streamlit-chat
 bunkoer
 tiktoken
+openai
+faiss-cpu
